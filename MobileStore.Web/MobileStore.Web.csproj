@@ -14,8 +14,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TeduShop.Web</RootNamespace>
-    <AssemblyName>TeduShop.Web</AssemblyName>
+    <RootNamespace>MobileStore.Web</RootNamespace>
+    <AssemblyName>MobileStore.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -5138,6 +5138,12 @@
     <Content Include="Assets\admin\libs\angular-ui-select\package.json" />
     <Content Include="Assets\admin\libs\angular-ui-select\README.md" />
     <Content Include="Assets\admin\templates\ProductImportTemplate.xlsx" />
+    <Content Include="Assets\admin\libs\angular-ui-router\.bower.json" />
+    <Content Include="Assets\admin\libs\angular-ui-router\bower.json" />
+    <Content Include="Assets\admin\libs\angular-ui-router\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\angular-ui-router\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\angular-ui-router\LICENSE" />
+    <Content Include="Assets\admin\libs\angular-ui-router\README.md" />
     <None Include="bundleconfig.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -5177,19 +5183,19 @@
   <ItemGroup>
     <ProjectReference Include="..\MobileStore.Common\MobileStore.Common.csproj">
       <Project>{300cc7f5-31a6-44b7-8d90-f354ac34b936}</Project>
-      <Name>TeduShop.Common</Name>
+      <Name>MobileStore.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\MobileStore.Data\MobileStore.Data.csproj">
       <Project>{d573cfed-f642-4868-b921-4226cb26cdfe}</Project>
-      <Name>TeduShop.Data</Name>
+      <Name>MobileStore.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\MobileStore.Model\MobileStore.Model.csproj">
       <Project>{1a60e027-7b3b-4881-9ec3-2666b297cb43}</Project>
-      <Name>TeduShop.Model</Name>
+      <Name>MobileStore.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\MobileStore.Service\MobileStore.Service.csproj">
       <Project>{7eb49ce5-4c7a-46d0-b381-eb19a5f8dfaa}</Project>
-      <Name>TeduShop.Service</Name>
+      <Name>MobileStore.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -5602,12 +5608,6 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="Assets\admin\libs\angular-ui-router\.bower.json" />
-    <Content Include="Assets\admin\libs\angular-ui-router\bower.json" />
-    <Content Include="Assets\admin\libs\angular-ui-router\CHANGELOG.md" />
-    <Content Include="Assets\admin\libs\angular-ui-router\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\angular-ui-router\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-ui-router\README.md" />
     <None Include="Properties\PublishProfiles\publish.pubxml" />
     <Content Include="Views\ShoppingCart\CancelOrder.cshtml" />
     <Content Include="Views\ShoppingCart\ConfirmOrder.cshtml" />
