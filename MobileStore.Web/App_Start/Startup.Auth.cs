@@ -108,7 +108,7 @@ namespace MobileStore.Web.App_Start
                 {
                     var applicationGroupService = ServiceFactory.Get<IApplicationGroupService>();
                     var listGroup = applicationGroupService.GetListGroupByUserId(user.Id);
-                    if (listGroup.Any(x => x.Name == CommonConstants.Administrator))
+                    if (listGroup.Any(x => x.Name == "Admin"))
                     {
                         ClaimsIdentity identity = await userManager.CreateIdentityAsync(
                                        user,
@@ -116,9 +116,9 @@ namespace MobileStore.Web.App_Start
                         context.Validated(identity);
                     }
                     else
-                    {
+                    {                        
                         context.Rejected();
-                        context.SetError("invalid_group", "Bạn không phải là admin");
+                        context.SetError("invalid_group", "Bạn không phải là admin!");
                     }
 
                 }

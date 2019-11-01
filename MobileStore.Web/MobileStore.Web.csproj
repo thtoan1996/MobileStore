@@ -433,8 +433,6 @@
     <Content Include="Assets\admin\libs\angular-loading-bar\index.js" />
     <Content Include="Assets\admin\libs\angular-loading-bar\src\loading-bar.css" />
     <Content Include="Assets\admin\libs\angular-loading-bar\src\loading-bar.js" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.gitattributes" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.gitignore" />
     <Content Include="Assets\admin\libs\angular-local-storage\demo\demo-app.js" />
     <Content Include="Assets\admin\libs\angular-local-storage\demo\demo-style.css" />
     <Content Include="Assets\admin\libs\angular-local-storage\demo\demo.html" />
@@ -473,7 +471,6 @@
     <Content Include="Assets\admin\libs\angular\angular.js" />
     <Content Include="Assets\admin\libs\angular\angular.min.js" />
     <Content Include="Assets\admin\libs\angular\index.js" />
-    <Content Include="Assets\admin\libs\bootbox\.gitignore" />
     <Content Include="Assets\admin\libs\bootbox\bootbox.js" />
     <Content Include="Assets\admin\libs\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="Assets\admin\libs\bootstrap\dist\css\bootstrap-theme.min.css" />
@@ -3030,6 +3027,126 @@
     <Content Include="Assets\admin\libs\ckeditor\plugins\wsc\dialogs\wsc.js" />
     <Content Include="Assets\admin\libs\ckeditor\plugins\wsc\dialogs\wsc_ie.js" />
     <Content Include="Assets\admin\libs\ckeditor\plugins\xml\plugin.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\css\samples.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\img\github-top.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\img\header-bg.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\img\header-separator.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\img\logo.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\img\navigation-tip.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\index.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\js\sample.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\js\sf.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\ajax.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\api.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\appendto.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\assets\inlineall\logo.png" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\assets\posteddata.php" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\assets\sample.jpg" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\assets\uilanguages\languages.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\autogrow\autogrow.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\bbcode\bbcode.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\codesnippet\codesnippet.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\datafiltering.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\devtools\devtools.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\dialog\assets\my_dialog.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\dialog\dialog.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\divarea\divarea.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\divreplace.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\docprops\docprops.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\enterkey\enterkey.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\htmlwriter\outputforflash.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\htmlwriter\outputhtml.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\image2\assets\image1.jpg" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\image2\assets\image2.jpg" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\image2\image2.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\index.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\inlineall.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\inlinebycode.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\inlinetextarea.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\jquery.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\magicline\magicline.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\mathjax\mathjax.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\placeholder\placeholder.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\readonly.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\replacebyclass.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\replacebycode.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\sample.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\sample.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\sample_posteddata.php" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\sharedspace\sharedspace.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\sourcedialog\sourcedialog.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\stylesheetparser\assets\sample.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\stylesheetparser\stylesheetparser.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\tabindex.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\tableresize\tableresize.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\toolbar\toolbar.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\uicolor.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\uicolor\uicolor.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\uilanguages.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\wysiwygarea\fullpage.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\xhtmlstyle.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\index.html" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\dialog.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\dialog_ie.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\dialog_ie7.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\dialog_ie8.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\dialog_iequirks.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\editor.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\editor_ie.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\editor_ie7.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\editor_ie8.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\editor_iequirks.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\icons.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\icons_hidpi.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\mini.gif" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\spinner.gif" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\sprites.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\skin.js" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\dialog.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\dialog_ie.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\dialog_ie7.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\dialog_ie8.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\dialog_iequirks.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor_gecko.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor_ie.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor_ie7.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor_ie8.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\editor_iequirks.css" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\icons.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\icons_hidpi.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\arrow.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\close.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\hidpi\close.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\hidpi\lock-open.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\hidpi\lock.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\hidpi\refresh.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\lock-open.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\lock.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\refresh.png" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\images\spinner.gif" />
+    <Content Include="Assets\admin\libs\ckeditor\styles.js" />
     <Content Include="Assets\admin\libs\ckfinder\changelog.txt" />
     <Content Include="Assets\admin\libs\ckfinder\ckfinder.html" />
     <Content Include="Assets\admin\libs\ckfinder\ckfinder.js" />
@@ -3661,7 +3778,6 @@
     <Content Include="Assets\admin\libs\ckfinder\skins\v1\uipanel.css" />
     <Content Include="Assets\admin\libs\ckfinder\translations.txt" />
     <Content Include="Assets\admin\libs\fastclick\lib\fastclick.js" />
-    <Content Include="Assets\admin\libs\jquery-ui\.gitignore" />
     <Content Include="Assets\admin\libs\jquery-ui\AUTHORS.txt" />
     <Content Include="Assets\admin\libs\jquery-ui\jquery-ui.js" />
     <Content Include="Assets\admin\libs\jquery-ui\jquery-ui.min.js" />
@@ -4600,8 +4716,8 @@
     <Content Include="Assets\admin\libs\mustache\mustache.min.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.txt" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\.gitignore" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\1.html" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\examples\checkspelling.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\css\bootstrap.css" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\demo1.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\demo2.html" />
@@ -4609,6 +4725,8 @@
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\js\angular-mocks.js" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\js\angular-resource.min.js" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\js\jquery-1.9.1.min.js" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\examples\spellcheck\handler.php" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\examples\test.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\Gruntfile.js" />
     <Content Include="Assets\admin\libs\ng-ckeditor\karma.conf.js" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\adapters\jquery.js" />
@@ -4755,6 +4873,7 @@
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\appendto.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\inlineall\logo.png" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\posteddata.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\sample.css" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\sample.jpg" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\uilanguages\languages.js" />
@@ -4787,6 +4906,7 @@
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\replacebycode.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\sample.css" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\sample.js" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\sample_posteddata.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\tabindex.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\uicolor.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\uilanguages.html" />
@@ -4835,7 +4955,6 @@
     <Content Include="Assets\admin\libs\ngBootbox\examples\index.html" />
     <Content Include="Assets\admin\libs\ngBootbox\gulpfile.js" />
     <Content Include="Assets\admin\libs\ngBootbox\ngBootbox.js" />
-    <Content Include="Assets\admin\libs\numeral\.gitignore" />
     <Content Include="Assets\admin\libs\numeral\Gruntfile.js" />
     <Content Include="Assets\admin\libs\numeral\languages.js" />
     <Content Include="Assets\admin\libs\numeral\languages\be-nl.js" />
@@ -5119,12 +5238,54 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\admin\templates\ProductImportTemplate.xlsx" />
+    <Content Include="bower.json" />
+    <Content Include="Assets\admin\libs\angular-chart.js\.bower.json" />
+    <Content Include="Assets\admin\libs\angular-chart.js\angular-chart.less" />
+    <Content Include="Assets\admin\libs\angular-chart.js\bower.json" />
+    <Content Include="Assets\admin\libs\angular-chart.js\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.js.tar.gz" />
+    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.min.css.map" />
+    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.min.js.map" />
+    <Content Include="Assets\admin\libs\angular-chart.js\Dockerfile" />
+    <Content Include="Assets\admin\libs\angular-chart.js\ISSUE_TEMPLATE.md" />
+    <Content Include="Assets\admin\libs\angular-chart.js\LICENSE" />
+    <Content Include="Assets\admin\libs\angular-chart.js\package.json" />
+    <Content Include="Assets\admin\libs\angular-chart.js\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="Assets\admin\libs\angular-chart.js\README.md" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\.bower.json" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\bower.json" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\ISSUE_TEMPLATE.md" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\LICENSE" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\package.json" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="Assets\admin\libs\angular-loading-bar\README.md" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.bower.json" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.bowerrc" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.editorconfig" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.gitattributes" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.gitignore" />
+    <Content Include="Assets\admin\libs\angular-local-storage\.travis.yml" />
+    <Content Include="Assets\admin\libs\angular-local-storage\bower.json" />
+    <Content Include="Assets\admin\libs\angular-local-storage\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\angular-local-storage\dist\angular-local-storage.min.js.map" />
+    <Content Include="Assets\admin\libs\angular-local-storage\LICENSE" />
+    <Content Include="Assets\admin\libs\angular-local-storage\package.json" />
+    <Content Include="Assets\admin\libs\angular-local-storage\README.md" />
     <Content Include="Assets\admin\libs\angular-sanitize\.bower.json" />
     <Content Include="Assets\admin\libs\angular-sanitize\angular-sanitize.min.js.map" />
     <Content Include="Assets\admin\libs\angular-sanitize\bower.json" />
     <Content Include="Assets\admin\libs\angular-sanitize\LICENSE.md" />
     <Content Include="Assets\admin\libs\angular-sanitize\package.json" />
     <Content Include="Assets\admin\libs\angular-sanitize\README.md" />
+    <Content Include="Assets\admin\libs\angular-ui-router\.bower.json" />
+    <Content Include="Assets\admin\libs\angular-ui-router\bower.json" />
+    <Content Include="Assets\admin\libs\angular-ui-router\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\angular-ui-router\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\angular-ui-router\LICENSE" />
+    <Content Include="Assets\admin\libs\angular-ui-router\README.md" />
     <Content Include="Assets\admin\libs\angular-ui-select\.bower.json" />
     <Content Include="Assets\admin\libs\angular-ui-select\bower.json" />
     <Content Include="Assets\admin\libs\angular-ui-select\CHANGELOG.md" />
@@ -5134,86 +5295,25 @@
     <Content Include="Assets\admin\libs\angular-ui-select\dist\select.min.css.map" />
     <Content Include="Assets\admin\libs\angular-ui-select\dist\select.min.js.map" />
     <Content Include="Assets\admin\libs\angular-ui-select\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-ui-select\npm-debug.log" />
     <Content Include="Assets\admin\libs\angular-ui-select\package.json" />
     <Content Include="Assets\admin\libs\angular-ui-select\README.md" />
-    <Content Include="Assets\admin\templates\ProductImportTemplate.xlsx" />
-    <Content Include="Assets\admin\libs\angular-ui-router\.bower.json" />
-    <Content Include="Assets\admin\libs\angular-ui-router\bower.json" />
-    <Content Include="Assets\admin\libs\angular-ui-router\CHANGELOG.md" />
-    <Content Include="Assets\admin\libs\angular-ui-router\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\angular-ui-router\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-ui-router\README.md" />
-    <None Include="bundleconfig.json" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Views\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\components\orders\" />
-    <Folder Include="app\components\roles\" />
-    <Folder Include="app\components\users\" />
-    <Folder Include="app\shared\footer\" />
-    <Folder Include="app\shared\navigation\" />
-    <Folder Include="Assets\admin\libs\checklist-model\test\" />
-    <Folder Include="Reports\" />
-    <Folder Include="UploadedFiles\" />
-    <Folder Include="Views\About\" />
-    <Folder Include="Views\Post\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MobileStore.Common\MobileStore.Common.csproj">
-      <Project>{300cc7f5-31a6-44b7-8d90-f354ac34b936}</Project>
-      <Name>MobileStore.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MobileStore.Data\MobileStore.Data.csproj">
-      <Project>{d573cfed-f642-4868-b921-4226cb26cdfe}</Project>
-      <Name>MobileStore.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MobileStore.Model\MobileStore.Model.csproj">
-      <Project>{1a60e027-7b3b-4881-9ec3-2666b297cb43}</Project>
-      <Name>MobileStore.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MobileStore.Service\MobileStore.Service.csproj">
-      <Project>{7eb49ce5-4c7a-46d0-b381-eb19a5f8dfaa}</Project>
-      <Name>MobileStore.Service</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include=".bowerrc" />
-    <Content Include="bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Admin\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Assets\admin\libs\angular\.bower.json" />
     <Content Include="Assets\admin\libs\angular\angular.min.js.gzip" />
     <Content Include="Assets\admin\libs\angular\angular.min.js.map" />
     <Content Include="Assets\admin\libs\angular\bower.json" />
+    <Content Include="Assets\admin\libs\angular\LICENSE.md" />
     <Content Include="Assets\admin\libs\angular\package.json" />
     <Content Include="Assets\admin\libs\angular\README.md" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Assets\admin\libs\bootbox\.bower.json" />
+    <Content Include="Assets\admin\libs\bootbox\.gitignore" />
+    <Content Include="Assets\admin\libs\bootbox\.jshintrc" />
+    <Content Include="Assets\admin\libs\bootbox\.npmignore" />
+    <Content Include="Assets\admin\libs\bootbox\.travis.yml" />
+    <Content Include="Assets\admin\libs\bootbox\bower.json" />
+    <Content Include="Assets\admin\libs\bootbox\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\bootbox\LICENSE.md" />
+    <Content Include="Assets\admin\libs\bootbox\package.json" />
+    <Content Include="Assets\admin\libs\bootbox\README.md" />
     <Content Include="Assets\admin\libs\bootstrap\.bower.json" />
     <Content Include="Assets\admin\libs\bootstrap\bower.json" />
     <Content Include="Assets\admin\libs\bootstrap\CHANGELOG.md" />
@@ -5313,61 +5413,11 @@
     <Content Include="Assets\admin\libs\bootstrap\nuget\MyGet.ps1" />
     <Content Include="Assets\admin\libs\bootstrap\package.json" />
     <Content Include="Assets\admin\libs\bootstrap\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\jquery\.bower.json" />
-    <Content Include="Assets\admin\libs\jquery\bower.json" />
-    <Content Include="Assets\admin\libs\jquery\dist\jquery.min.map" />
-    <Content Include="Assets\admin\libs\jquery\dist\jquery.slim.min.map" />
-    <Content Include="Assets\admin\libs\jquery\README.md" />
-    <Content Include="Assets\admin\libs\jquery\sizzle\dist\sizzle.min.map" />
-    <Content Include="Assets\admin\libs\jquery\src\.jshintrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\fastclick\.bower.json" />
-    <Content Include="Assets\admin\libs\fastclick\bower.json" />
-    <Content Include="Assets\admin\libs\fastclick\LICENSE" />
-    <Content Include="Assets\admin\libs\fastclick\README.md" />
-    <Content Include="Assets\admin\libs\slimScroll\.bower.json" />
-    <Content Include="Assets\admin\libs\slimScroll\package.json" />
-    <Content Include="Assets\admin\libs\slimScroll\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\AdminLTE-2.3.0.zip" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\toastr\.bower.json" />
-    <Content Include="Assets\admin\libs\toastr\bower.json" />
-    <Content Include="Assets\admin\libs\toastr\README.md" />
-    <Content Include="Assets\admin\libs\toastr\toastr.js.map" />
-    <Content Include="Assets\admin\libs\toastr\toastr.less" />
-    <Content Include="Assets\admin\libs\toastr\toastr.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\bootbox\.bower.json" />
-    <Content Include="Assets\admin\libs\bootbox\.jshintrc" />
-    <Content Include="Assets\admin\libs\bootbox\.npmignore" />
-    <Content Include="Assets\admin\libs\bootbox\.travis.yml" />
-    <Content Include="Assets\admin\libs\bootbox\bower.json" />
-    <Content Include="Assets\admin\libs\bootbox\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\bootbox\LICENSE.md" />
-    <Content Include="Assets\admin\libs\bootbox\package.json" />
-    <Content Include="Assets\admin\libs\bootbox\README.md" />
-    <Content Include="Assets\admin\libs\ngBootbox\.bower.json" />
-    <Content Include="Assets\admin\libs\ngBootbox\bower.json" />
-    <Content Include="Assets\admin\libs\ngBootbox\package.json" />
-    <Content Include="Assets\admin\libs\ngBootbox\README.md" />
-    <Content Include="Assets\admin\libs\ngBootbox\tsd.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\angularjs\angular.d.ts" />
-    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\jquery\jquery.d.ts" />
-    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\tsd.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Assets\admin\libs\Chart.js\.bower.json" />
+    <Content Include="Assets\admin\libs\Chart.js\bower.json" />
+    <Content Include="Assets\admin\libs\checklist-model\.bower.json" />
+    <Content Include="Assets\admin\libs\checklist-model\bower.json" />
+    <Content Include="Assets\admin\libs\checklist-model\readme.md" />
     <Content Include="Assets\admin\libs\ckeditor\.bower.json" />
     <Content Include="Assets\admin\libs\ckeditor\bower.json" />
     <Content Include="Assets\admin\libs\ckeditor\CHANGES.md" />
@@ -5381,13 +5431,73 @@
     <Content Include="Assets\admin\libs\ckeditor\plugins\scayt\LICENSE.md" />
     <Content Include="Assets\admin\libs\ckeditor\plugins\wsc\LICENSE.md" />
     <Content Include="Assets\admin\libs\ckeditor\README.md" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\config.json" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\fontello.eot" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\fontello.ttf" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
+    <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\kama\readme.md" />
+    <Content Include="Assets\admin\libs\ckeditor\skins\moono\readme.md" />
+    <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Assets\admin\libs\fastclick\.bower.json" />
+    <Content Include="Assets\admin\libs\fastclick\bower.json" />
+    <Content Include="Assets\admin\libs\fastclick\LICENSE" />
+    <Content Include="Assets\admin\libs\fastclick\README.md" />
+    <Content Include="Assets\admin\libs\jquery-ui\.bower.json" />
+    <Content Include="Assets\admin\libs\jquery-ui\.gitignore" />
+    <Content Include="Assets\admin\libs\jquery-ui\bower.json" />
+    <Content Include="Assets\admin\libs\jquery-ui\component.json" />
+    <Content Include="Assets\admin\libs\jquery-ui\composer.json" />
+    <Content Include="Assets\admin\libs\jquery-ui\package.json" />
+    <Content Include="Assets\admin\libs\jquery-ui\README.md" />
+    <Content Include="Assets\admin\libs\jquery-ui\ui\.jshintrc" />
+    <Content Include="Assets\admin\libs\jquery-validation\.bower.json" />
+    <Content Include="Assets\admin\libs\jquery-validation\bower.json" />
+    <Content Include="Assets\admin\libs\jquery-validation\changelog.md" />
+    <Content Include="Assets\admin\libs\jquery-validation\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\jquery-validation\LICENSE.md" />
+    <Content Include="Assets\admin\libs\jquery-validation\package.json" />
+    <Content Include="Assets\admin\libs\jquery-validation\README.md" />
+    <Content Include="Assets\admin\libs\jquery-validation\validation.jquery.json" />
+    <Content Include="Assets\admin\libs\jquery\.bower.json" />
+    <Content Include="Assets\admin\libs\jquery\bower.json" />
+    <Content Include="Assets\admin\libs\jquery\dist\jquery.min.map" />
+    <Content Include="Assets\admin\libs\jquery\dist\jquery.slim.min.map" />
+    <Content Include="Assets\admin\libs\jquery\README.md" />
+    <Content Include="Assets\admin\libs\jquery\sizzle\dist\sizzle.min.map" />
+    <Content Include="Assets\admin\libs\jquery\src\.jshintrc" />
+    <Content Include="Assets\admin\libs\mustache\.bower.json" />
+    <Content Include="Assets\admin\libs\mustache\bower.json" />
+    <Content Include="Assets\admin\libs\mustache\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\mustache\hooks\install-hooks.sh" />
+    <Content Include="Assets\admin\libs\mustache\hooks\pre-commit" />
+    <Content Include="Assets\admin\libs\mustache\LICENSE" />
+    <Content Include="Assets\admin\libs\mustache\MIGRATING.md" />
+    <Content Include="Assets\admin\libs\mustache\mustache.js.nuspec" />
+    <Content Include="Assets\admin\libs\mustache\package.json" />
+    <Content Include="Assets\admin\libs\mustache\Rakefile" />
+    <Content Include="Assets\admin\libs\mustache\README.md" />
+    <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.mustache" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\dojo\mustache.js.post" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\dojo\mustache.js.pre" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\jquery\mustache.js.post" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\jquery\mustache.js.pre" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\mootools\mustache.js.post" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\mootools\mustache.js.pre" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\qooxdoo\mustache.js.post" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\qooxdoo\mustache.js.pre" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\yui3\mustache.js.post" />
+    <Content Include="Assets\admin\libs\mustache\wrappers\yui3\mustache.js.pre" />
     <Content Include="Assets\admin\libs\ng-ckeditor\.bower.json" />
     <Content Include="Assets\admin\libs\ng-ckeditor\.bowerrc" />
+    <Content Include="Assets\admin\libs\ng-ckeditor\.gitignore" />
     <Content Include="Assets\admin\libs\ng-ckeditor\.travis.yml" />
     <Content Include="Assets\admin\libs\ng-ckeditor\bower.json" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\examples\checkspelling.php" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\examples\spellcheck\handler.php" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\examples\test.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\CHANGES.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\LICENSE.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\plugins\scayt\LICENSE.md" />
@@ -5395,43 +5505,101 @@
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\plugins\wsc\LICENSE.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\plugins\wsc\README.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\README.md" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\assets\posteddata.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.fla" />
-    <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\samples\sample_posteddata.php" />
     <Content Include="Assets\admin\libs\ng-ckeditor\libs\ckeditor\skins\moono\readme.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\LICENSE" />
     <Content Include="Assets\admin\libs\ng-ckeditor\ng-ckeditor.min.map" />
     <Content Include="Assets\admin\libs\ng-ckeditor\package.json" />
     <Content Include="Assets\admin\libs\ng-ckeditor\README.md" />
     <Content Include="Assets\admin\libs\ng-ckeditor\src\styles\ng-ckeditor.less" />
+    <Content Include="Assets\admin\libs\ngBootbox\.bower.json" />
+    <Content Include="Assets\admin\libs\ngBootbox\bower.json" />
+    <Content Include="Assets\admin\libs\ngBootbox\package.json" />
+    <Content Include="Assets\admin\libs\ngBootbox\README.md" />
+    <Content Include="Assets\admin\libs\ngBootbox\tsd.json" />
+    <Content Include="Assets\admin\libs\numeral\.bower.json" />
+    <Content Include="Assets\admin\libs\numeral\.gitignore" />
+    <Content Include="Assets\admin\libs\numeral\.travis.yml" />
+    <Content Include="Assets\admin\libs\numeral\bower.json" />
+    <Content Include="Assets\admin\libs\numeral\component.json" />
+    <Content Include="Assets\admin\libs\numeral\LICENSE" />
+    <Content Include="Assets\admin\libs\numeral\package.json" />
+    <Content Include="Assets\admin\libs\numeral\README.md" />
+    <Content Include="Assets\admin\libs\slimScroll\.bower.json" />
+    <Content Include="Assets\admin\libs\slimScroll\package.json" />
+    <Content Include="Assets\admin\libs\slimScroll\README.md" />
+    <Content Include="Assets\admin\libs\toastr\.bower.json" />
+    <Content Include="Assets\admin\libs\toastr\bower.json" />
+    <Content Include="Assets\admin\libs\toastr\README.md" />
+    <Content Include="Assets\admin\libs\toastr\toastr.js.map" />
+    <Content Include="Assets\admin\libs\toastr\toastr.less" />
+    <Content Include="Assets\admin\libs\toastr\toastr.scss" />
+    <None Include="bundleconfig.json" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Folder Include="app\components\orders\" />
+    <Folder Include="app\components\roles\" />
+    <Folder Include="app\components\users\" />
+    <Folder Include="app\shared\footer\" />
+    <Folder Include="app\shared\navigation\" />
+    <Folder Include="Assets\admin\libs\checklist-model\test\" />
+    <Folder Include="Assets\admin\libs\mustache\bin\" />
+    <Folder Include="Reports\" />
+    <Folder Include="UploadedFiles\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Post\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\admin\libs\angular-loading-bar\.bower.json" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\bower.json" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\CHANGELOG.md" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\ISSUE_TEMPLATE.md" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\package.json" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\PULL_REQUEST_TEMPLATE.md" />
-    <Content Include="Assets\admin\libs\angular-loading-bar\README.md" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.bower.json" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.bowerrc" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.editorconfig" />
-    <Content Include="Assets\admin\libs\angular-local-storage\.travis.yml" />
-    <Content Include="Assets\admin\libs\angular-local-storage\bower.json" />
-    <Content Include="Assets\admin\libs\angular-local-storage\CHANGELOG.md" />
-    <Content Include="Assets\admin\libs\angular-local-storage\dist\angular-local-storage.min.js.map" />
-    <Content Include="Assets\admin\libs\angular-local-storage\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-local-storage\package.json" />
-    <Content Include="Assets\admin\libs\angular-local-storage\README.md" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MobileStore.Common\MobileStore.Common.csproj">
+      <Project>{300cc7f5-31a6-44b7-8d90-f354ac34b936}</Project>
+      <Name>MobileStore.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileStore.Data\MobileStore.Data.csproj">
+      <Project>{d573cfed-f642-4868-b921-4226cb26cdfe}</Project>
+      <Name>MobileStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileStore.Model\MobileStore.Model.csproj">
+      <Project>{1a60e027-7b3b-4881-9ec3-2666b297cb43}</Project>
+      <Name>MobileStore.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileStore.Service\MobileStore.Service.csproj">
+      <Project>{7eb49ce5-4c7a-46d0-b381-eb19a5f8dfaa}</Project>
+      <Name>MobileStore.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".bowerrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Admin\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AdminLTE-2.3.0.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConnectionStrings.config" />
@@ -5501,16 +5669,6 @@
     <Content Include="Assets\client\font-awesome-4.6.3\scss\_variables.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\admin\libs\jquery-ui\.bower.json" />
-    <Content Include="Assets\admin\libs\jquery-ui\bower.json" />
-    <Content Include="Assets\admin\libs\jquery-ui\component.json" />
-    <Content Include="Assets\admin\libs\jquery-ui\composer.json" />
-    <Content Include="Assets\admin\libs\jquery-ui\package.json" />
-    <Content Include="Assets\admin\libs\jquery-ui\README.md" />
-    <Content Include="Assets\admin\libs\jquery-ui\ui\.DS_Store" />
-    <Content Include="Assets\admin\libs\jquery-ui\ui\.jshintrc" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Product\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -5535,74 +5693,6 @@
     <Content Include="Views\ShoppingCart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\admin\libs\mustache\.bower.json" />
-    <Content Include="Assets\admin\libs\mustache\bin\mustache" />
-    <Content Include="Assets\admin\libs\mustache\bower.json" />
-    <Content Include="Assets\admin\libs\mustache\CHANGELOG.md" />
-    <Content Include="Assets\admin\libs\mustache\hooks\install-hooks.sh" />
-    <Content Include="Assets\admin\libs\mustache\hooks\pre-commit" />
-    <Content Include="Assets\admin\libs\mustache\LICENSE" />
-    <Content Include="Assets\admin\libs\mustache\MIGRATING.md" />
-    <Content Include="Assets\admin\libs\mustache\mustache.js.nuspec" />
-    <Content Include="Assets\admin\libs\mustache\package.json" />
-    <Content Include="Assets\admin\libs\mustache\Rakefile" />
-    <Content Include="Assets\admin\libs\mustache\README.md" />
-    <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.mustache" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\dojo\mustache.js.post" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\dojo\mustache.js.pre" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\jquery\mustache.js.post" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\jquery\mustache.js.pre" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\mootools\mustache.js.post" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\mootools\mustache.js.pre" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\qooxdoo\mustache.js.post" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\qooxdoo\mustache.js.pre" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\yui3\mustache.js.post" />
-    <Content Include="Assets\admin\libs\mustache\wrappers\yui3\mustache.js.pre" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\numeral\.bower.json" />
-    <Content Include="Assets\admin\libs\numeral\.travis.yml" />
-    <Content Include="Assets\admin\libs\numeral\bower.json" />
-    <Content Include="Assets\admin\libs\numeral\component.json" />
-    <Content Include="Assets\admin\libs\numeral\LICENSE" />
-    <Content Include="Assets\admin\libs\numeral\package.json" />
-    <Content Include="Assets\admin\libs\numeral\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\jquery-validation\.bower.json" />
-    <Content Include="Assets\admin\libs\jquery-validation\bower.json" />
-    <Content Include="Assets\admin\libs\jquery-validation\changelog.md" />
-    <Content Include="Assets\admin\libs\jquery-validation\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\jquery-validation\LICENSE.md" />
-    <Content Include="Assets\admin\libs\jquery-validation\package.json" />
-    <Content Include="Assets\admin\libs\jquery-validation\README.md" />
-    <Content Include="Assets\admin\libs\jquery-validation\validation.jquery.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\checklist-model\.bower.json" />
-    <Content Include="Assets\admin\libs\checklist-model\bower.json" />
-    <Content Include="Assets\admin\libs\checklist-model\readme.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\angular-chart.js\.bower.json" />
-    <Content Include="Assets\admin\libs\angular-chart.js\angular-chart.less" />
-    <Content Include="Assets\admin\libs\angular-chart.js\bower.json" />
-    <Content Include="Assets\admin\libs\angular-chart.js\CONTRIBUTING.md" />
-    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.js.tar.gz" />
-    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.min.css.map" />
-    <Content Include="Assets\admin\libs\angular-chart.js\dist\angular-chart.min.js.map" />
-    <Content Include="Assets\admin\libs\angular-chart.js\Dockerfile" />
-    <Content Include="Assets\admin\libs\angular-chart.js\ISSUE_TEMPLATE.md" />
-    <Content Include="Assets\admin\libs\angular-chart.js\LICENSE" />
-    <Content Include="Assets\admin\libs\angular-chart.js\package.json" />
-    <Content Include="Assets\admin\libs\angular-chart.js\PULL_REQUEST_TEMPLATE.md" />
-    <Content Include="Assets\admin\libs\angular-chart.js\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\admin\libs\Chart.js\.bower.json" />
-    <Content Include="Assets\admin\libs\Chart.js\bower.json" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -5614,6 +5704,11 @@
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\tsd.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

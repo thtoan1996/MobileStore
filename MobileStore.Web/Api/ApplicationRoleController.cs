@@ -98,6 +98,7 @@ namespace MobileStore.Web.Api
                 }
                 catch (NameDuplicatedException dex)
                 {
+
                     return request.CreateErrorResponse(HttpStatusCode.BadRequest, dex.Message);
                 }
             }

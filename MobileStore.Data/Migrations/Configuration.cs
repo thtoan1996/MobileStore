@@ -91,7 +91,7 @@
 
                 manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
             }
-           
+
         }
         private void CreateProductCategorySample(MobileStore.Data.MobileStoreDbContext context)
         {

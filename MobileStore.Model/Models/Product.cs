@@ -47,7 +47,7 @@ namespace MobileStore.Model.Models
         public int? ViewCount { set; get; }
 
         public string Tags { set; get; }
-
+       // public string Colors { set; get; }
         public int Quantity { set; get; }
 
         public decimal OriginalPrice { set; get; }

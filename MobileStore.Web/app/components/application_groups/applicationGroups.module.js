@@ -1,4 +1,5 @@
-﻿/// <reference path="/Assets/admin/libs/angular/angular.js" />
+﻿
+/// <reference path="../../../assets/admin/libs/angular/angular.js" />
 
 (function () {
     angular.module('mobilestore.application_groups', ['mobilestore.common']).config(config);
